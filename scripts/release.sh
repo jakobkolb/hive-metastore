@@ -4,6 +4,7 @@
 set -euo pipefail
 
 DEFAULT_TAG=jakobjkolb/hive-metastore:latest
+
 TAG=${TAG:-$DEFAULT_TAG}
 
 docker build --tag "$TAG" .
