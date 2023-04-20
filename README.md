@@ -8,7 +8,7 @@ There are numerous Docker images that attempt to do this, but yet to see somethi
 
 ### Usage
 
-The recommended way to get this Docker Image is to pull the prebuilt image from the [Docker Hub Registry](https://hub.docker.com/r/naushadh/hive-metastore).
+The recommended way to get this Docker Image is to pull the prebuilt image from the [Docker Hub Registry](https://hub.docker.com/r/jakobjkolb/hive-metastore).
 
 ```bash
 $ docker pull naushadh/hive-metastore
@@ -22,7 +22,7 @@ $ cd hive-metastore
 $ make build
 ```
 
-You can also use DockerCompose to launch the app with all of its dependencies using [docker-compose.yml](https://raw.githubusercontent.com/naushadh/hive-metastore/main/docker-compose.yml) file in the GitHub repository. Just replace the `build` with `image`
+You can also use DockerCompose to launch the app with all of its dependencies using [docker-compose.yml](https://raw.githubusercontent.com/jakobkolb/hive-metastore/main/docker-compose.yml) file in the GitHub repository. Just replace the `build` with `image`
 
 ```diff
 app:

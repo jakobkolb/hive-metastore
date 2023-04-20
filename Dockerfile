@@ -1,4 +1,4 @@
-FROM openjdk:16-slim
+FROM openjdk:21-slim
 
 # Lifted from: https://github.com/joshuarobinson/presto-on-k8s/blob/1c91f0b97c3b7b58bdcdec5ad6697b42e50d74c7/hive_metastore/Dockerfile
 
