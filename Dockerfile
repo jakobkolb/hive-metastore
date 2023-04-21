@@ -47,7 +47,7 @@ RUN \
     ln -s /opt/postgresql-$POSTGRES_CONNECTOR_VERSION.jar /opt/hadoop/share/hadoop/common/lib/ && \
     ln -s /opt/postgresql-$POSTGRES_CONNECTOR_VERSION.jar /opt/hive-metastore/lib/ && \
   echo "Purge build artifacts" && \
-    apt-get purge -y --auto-remove $build_deps && \
+#    apt-get purge -y --auto-remove $build_deps && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
